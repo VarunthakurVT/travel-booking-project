@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>home page</title>
+    
+  </head>
+  <body>
+      <div class="mainpage">
+    
+    <div class="headerbackground">
+   <div class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+
+<div class="darkness">
+  
+</div>
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+<nav class="mainnavstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+<!-- this add in all page -->
+  <div class="navstickeybus">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</div>  
+    <div class="bus-booking-wrapper">
+        <!-- Header -->
+        <header class="bus-booking-header">
+            <div class="bus-booking-header-content">
+                <h1 class="bus-booking-logo">🚌 North India Bus Booking</h1>
+                <nav class="bus-booking-nav">
+                    <a href="#govt-buses">Government Buses</a>
+                    <a href="#private-buses">Private Buses</a>
+                    <a href="#booking">Book Now</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Search Section -->
+        <section class="bus-booking-search-section">
+            <div class="bus-booking-search-container">
+                <div class="bus-booking-search-title">Search Your Bus<div>
+                <div class="bus-booking-search-form">
+                    <div class="bus-booking-search-field">
+                        <label>From</label>
+                        <input type="text" placeholder="Delhi" class="bus-booking-input" />
+                    </div>
+                    <div class="bus-booking-search-field">
+                        <label>To</label>
+                        <input type="text" placeholder="Shimla" class="bus-booking-input" />
+                    </div>
+                    <div class="bus-booking-search-field">
+                        <label>Date</label>
+                        <input type="date" class="bus-booking-input" />
+                    </div>
+                    <button class="bus-booking-search-btn">Search Buses</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Government Buses Section with Horizontal Scroll -->
+        <section id="govt-buses" class="bus-booking-govt-section">
+            <h2 class="bus-booking-section-title">Government Bus Services</h2>
+            <p class="bus-booking-section-subtitle">Reliable and affordable state transport services</p>
+            
+            <div class="bus-booking-horizontal-scroll">
+            <!-- Horizontal Scroll Container -->
+                <!-- HRTC Card -->
+                <div class="bus-booking-govt-card bus-booking-hrtc">
+                    <div class="bus-booking-govt-logo"><img src="assets/photos/hrtc_logo_background_removed-removebg-preview.png" height="155px" alt="hrtc logo"></div>
+                    <h3>HRTC</h3>
+                    <p class="bus-booking-govt-name">Himachal Road Transport Corporation</p>
+                    <ul class="bus-booking-route-list">
+                        <li>Delhi → Shimla</li>
+                        <li>Chandigarh → Manali</li>
+                        <li>Delhi → Dharamshala</li>
+                        <li>Shimla → Kullu</li>
+                    </ul>
+                    <div class="bus-booking-features">
+                        <span>✓ AC & Non-AC</span>
+                        <span>✓ Volvo Available</span>
+                        <span>✓ Online Booking</span>
+                    </div>
+                    <a href="hrtc.html" class="bus-booking-govt-btn">Book HRTC Bus</a>
+                </div>
+
+                <!-- Punjab Roadways Card -->
+                <div class="bus-booking-govt-card bus-booking-punjab">
+                    <div class="bus-booking-govt-logo">🌾</div>
+                    <h3>PRTC</h3>
+                    <p class="bus-booking-govt-name">Punjab Roadways Transport Corporation</p>
+                    <ul class="bus-booking-route-list">
+                        <li>Delhi → Amritsar</li>
+                        <li>Chandigarh → Ludhiana</li>
+                        <li>Delhi → Jalandhar</li>
+                        <li>Amritsar → Patiala</li>
+                    </ul>
+                    <div class="bus-booking-features">
+                        <span>✓ Luxury Coaches</span>
+                        <span>✓ Sleeper Available</span>
+                        <span>✓ WiFi Enabled</span>
+                    </div>
+                    <a href="#booking" class="bus-booking-govt-btn">Book PRTC Bus</a>
+                </div>
+
+                <!-- UK Roadways Card -->
+                <div class="bus-booking-govt-card bus-booking-uk">
+                    <div class="bus-booking-govt-logo">⛰️</div>
+                    <h3>UPSRTC</h3>
+                    <p class="bus-booking-govt-name">Uttarakhand State Road Transport</p>
+                    <ul class="bus-booking-route-list">
+                        <li>Delhi → Dehradun</li>
+                        <li>Haridwar → Rishikesh</li>
+                        <li>Delhi → Nainital</li>
+                        <li>Dehradun → Mussoorie</li>
+                    </ul>
+                    <div class="bus-booking-features">
+                        <span>✓ Hill Station Routes</span>
+                        <span>✓ Safe Travel</span>
+                        <span>✓ GPS Tracking</span>
+                    </div>
+                    <a href="#booking" class="bus-booking-govt-btn">Book UK Bus</a>
+                </div>
+
+                <!-- Rajasthan Roadways Card -->
+                <div class="bus-booking-govt-card bus-booking-rajasthan">
+                    <div class="bus-booking-govt-logo">🏜️</div>
+                    <h3>RSRTC</h3>
+                    <p class="bus-booking-govt-name">Rajasthan State Road Transport</p>
+                    <ul class="bus-booking-route-list">
+                        <li>Delhi → Jaipur</li>
+                        <li>Jaipur → Udaipur</li>
+                        <li>Delhi → Jodhpur</li>
+                        <li>Jaipur → Ajmer</li>
+                    </ul>
+                    <div class="bus-booking-features">
+                        <span>✓ Express Service</span>
+                        <span>✓ AC Deluxe</span>
+                        <span>✓ Tourist Packages</span>
+                    </div>
+                    <a href="#booking" class="bus-booking-govt-btn">Book RSRTC Bus</a>
+                </div>
+
+                <!-- Haryana Roadways Card -->
+                <div class="bus-booking-govt-card bus-booking-haryana">
+                    <div class="bus-booking-govt-logo">🌻</div>
+                    <h3>HRTC</h3>
+                    <p class="bus-booking-govt-name">Haryana Roadways Transport</p>
+                    <ul class="bus-booking-route-list">
+                        <li>Delhi → Panipat</li>
+                        <li>Chandigarh → Karnal</li>
+                        <li>Delhi → Rohtak</li>
+                        <li>Gurgaon → Hisar</li>
+                    </ul>
+                    <div class="bus-booking-features">
+                        <span>✓ Metro Connect</span>
+                        <span>✓ Frequent Service</span>
+                        <span>✓ Low Fare</span>
+                    </div>
+                    <a href="#booking" class="bus-booking-govt-btn">Book Haryana Bus</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Available Buses Section -->
+        <section id="private-buses" class="bus-booking-available-section">
+            <h2 class="bus-booking-section-title">Available Buses</h2>
+            <p class="bus-booking-section-subtitle">Delhi to Shimla - October 22, 2025</p>
+
+            <!-- Bus List -->
+            <div class="bus-booking-list-container">
+                <!-- Bus 1 -->
+                <div class="bus-booking-bus-card">
+                    <div class="bus-booking-bus-header">
+                        <div class="bus-booking-bus-info">
+                            <h3>Volvo AC Sleeper</h3>
+                            <p class="bus-booking-operator">HRTC Government Bus</p>
+                            <div class="bus-booking-rating">
+                                <span>⭐ 4.5</span>
+                                <span class="bus-booking-reviews">(245 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-bus-price">
+                            <span class="bus-booking-price">₹850</span>
+                            <span class="bus-booking-price-label">per seat</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-details">
+                        <div class="bus-booking-timing">
+                            <div class="bus-booking-departure">
+                                <span class="bus-booking-time">10:00 PM</span>
+                                <span class="bus-booking-location">Delhi (ISBT)</span>
+                            </div>
+                            <div class="bus-booking-duration">
+                                <span class="bus-booking-travel-time">9h 30m</span>
+                                <div class="bus-booking-route-line"></div>
+                            </div>
+                            <div class="bus-booking-arrival">
+                                <span class="bus-booking-time">7:30 AM</span>
+                                <span class="bus-booking-location">Shimla</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-amenities">
+                            <span class="bus-booking-amenity">❄️ AC</span>
+                            <span class="bus-booking-amenity">🛏️ Sleeper</span>
+                            <span class="bus-booking-amenity">📱 Charging</span>
+                            <span class="bus-booking-amenity">💺 Recliner</span>
+                            <span class="bus-booking-amenity">🎬 Entertainment</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-footer">
+                        <span class="bus-booking-seats-left">12 Seats Left</span>
+                        <a href="#seat-selection" class="bus-booking-select-btn">Select Seats</a>
+                    </div>
+                </div>
+
+                <!-- Bus 2 -->
+                <div class="bus-booking-bus-card">
+                    <div class="bus-booking-bus-header">
+                        <div class="bus-booking-bus-info">
+                            <h3>Semi-Sleeper AC</h3>
+                            <p class="bus-booking-operator">Punjab Roadways</p>
+                            <div class="bus-booking-rating">
+                                <span>⭐ 4.2</span>
+                                <span class="bus-booking-reviews">(189 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-bus-price">
+                            <span class="bus-booking-price">₹650</span>
+                            <span class="bus-booking-price-label">per seat</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-details">
+                        <div class="bus-booking-timing">
+                            <div class="bus-booking-departure">
+                                <span class="bus-booking-time">11:30 PM</span>
+                                <span class="bus-booking-location">Delhi (Kashmiri Gate)</span>
+                            </div>
+                            <div class="bus-booking-duration">
+                                <span class="bus-booking-travel-time">10h 00m</span>
+                                <div class="bus-booking-route-line"></div>
+                            </div>
+                            <div class="bus-booking-arrival">
+                                <span class="bus-booking-time">9:30 AM</span>
+                                <span class="bus-booking-location">Shimla</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-amenities">
+                            <span class="bus-booking-amenity">❄️ AC</span>
+                            <span class="bus-booking-amenity">💺 Semi-Sleeper</span>
+                            <span class="bus-booking-amenity">📱 Charging</span>
+                            <span class="bus-booking-amenity">🚻 Washroom</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-footer">
+                        <span class="bus-booking-seats-left">8 Seats Left</span>
+                        <a href="#seat-selection" class="bus-booking-select-btn">Select Seats</a>
+                    </div>
+                </div>
+
+                <!-- Bus 3 -->
+                <div class="bus-booking-bus-card">
+                    <div class="bus-booking-bus-header">
+                        <div class="bus-booking-bus-info">
+                            <h3>Ordinary Non-AC</h3>
+                            <p class="bus-booking-operator">HRTC Economy Service</p>
+                            <div class="bus-booking-rating">
+                                <span>⭐ 3.8</span>
+                                <span class="bus-booking-reviews">(98 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-bus-price">
+                            <span class="bus-booking-price">₹450</span>
+                            <span class="bus-booking-price-label">per seat</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-details">
+                        <div class="bus-booking-timing">
+                            <div class="bus-booking-departure">
+                                <span class="bus-booking-time">6:00 AM</span>
+                                <span class="bus-booking-location">Delhi (ISBT)</span>
+                            </div>
+                            <div class="bus-booking-duration">
+                                <span class="bus-booking-travel-time">11h 30m</span>
+                                <div class="bus-booking-route-line"></div>
+                            </div>
+                            <div class="bus-booking-arrival">
+                                <span class="bus-booking-time">5:30 PM</span>
+                                <span class="bus-booking-location">Shimla</span>
+                            </div>
+                        </div>
+                        <div class="bus-booking-amenities">
+                            <span class="bus-booking-amenity">🪟 Window Seat</span>
+                            <span class="bus-booking-amenity">💺 Regular Seat</span>
+                            <span class="bus-booking-amenity">🛑 Multiple Stops</span>
+                        </div>
+                    </div>
+                    <div class="bus-booking-bus-footer">
+                        <span class="bus-booking-seats-left">20 Seats Left</span>
+                        <a href="#seat-selection" class="bus-booking-select-btn">Select Seats</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seat Selection Section -->
+        <section id="seat-selection" class="bus-booking-seat-section">
+            <h2 class="bus-booking-section-title">Select Your Seats</h2>
+            <div class="bus-booking-seat-container">
+                <!-- Seat Layout Info -->
+                <div class="bus-booking-seat-info">
+                    <h3>Volvo AC Sleeper - HRTC</h3>
+                    <p>Delhi (ISBT) → Shimla | Oct 22, 10:00 PM</p>
+                    <div class="bus-booking-seat-legend">
+                        <div class="bus-booking-legend-item">
+                            <div class="bus-booking-legend-box bus-booking-available-legend"></div>
+                            <span>Available</span>
+                        </div>
+                        <div class="bus-booking-legend-item">
+                            <div class="bus-booking-legend-box bus-booking-selected-legend"></div>
+                            <span>Selected</span>
+                        </div>
+                        <div class="bus-booking-legend-item">
+                            <div class="bus-booking-legend-box bus-booking-booked-legend"></div>
+                            <span>Booked</span>
+                        </div>
+                        <div class="bus-booking-legend-item">
+                            <div class="bus-booking-legend-box bus-booking-ladies-legend"></div>
+                            <span>Ladies Only</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bus Seat Layout -->
+                <div class="bus-booking-bus-layout">
+                    <!-- Driver Section -->
+                    <div class="bus-booking-driver-section">
+                        <div class="bus-booking-steering">🚗</div>
+                        <span>Driver</span>
+                    </div>
+
+                    <!-- Upper Deck (Sleeper) -->
+                    <div class="bus-booking-deck">
+                        <h4 class="bus-booking-deck-title">Upper Deck - Sleeper</h4>
+                        <div class="bus-booking-seat-grid">
+                            <!-- Row 1 -->
+                            <input type="checkbox" id="bus-booking-U1" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U1" class="bus-booking-seat bus-booking-sleeper-seat">U1</label>
+                            
+                            <input type="checkbox" id="bus-booking-U2" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U2" class="bus-booking-seat bus-booking-sleeper-seat">U2</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-U3" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U3" class="bus-booking-seat bus-booking-sleeper-seat">U3</label>
+
+                            <!-- Row 2 -->
+                            <input type="checkbox" id="bus-booking-U4" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U4" class="bus-booking-seat bus-booking-sleeper-seat">U4</label>
+                            
+                            <input type="checkbox" id="bus-booking-U5" class="bus-booking-seat-checkbox" disabled />
+                            <label for="bus-booking-U5" class="bus-booking-seat bus-booking-sleeper-seat bus-booking-booked">U5</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-U6" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U6" class="bus-booking-seat bus-booking-sleeper-seat">U6</label>
+
+                            <!-- Row 3 -->
+                            <input type="checkbox" id="bus-booking-U7" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U7" class="bus-booking-seat bus-booking-sleeper-seat bus-booking-ladies">U7</label>
+                            
+                            <input type="checkbox" id="bus-booking-U8" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U8" class="bus-booking-seat bus-booking-sleeper-seat bus-booking-ladies">U8</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-U9" class="bus-booking-seat-checkbox" disabled />
+                            <label for="bus-booking-U9" class="bus-booking-seat bus-booking-sleeper-seat bus-booking-booked">U9</label>
+
+                            <!-- Row 4 -->
+                            <input type="checkbox" id="bus-booking-U10" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U10" class="bus-booking-seat bus-booking-sleeper-seat">U10</label>
+                            
+                            <input type="checkbox" id="bus-booking-U11" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U11" class="bus-booking-seat bus-booking-sleeper-seat">U11</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-U12" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-U12" class="bus-booking-seat bus-booking-sleeper-seat">U12</label>
+                        </div>
+                    </div>
+
+                    <!-- Lower Deck (Seater) -->
+                    <div class="bus-booking-deck">
+                        <h4 class="bus-booking-deck-title">Lower Deck - Seater</h4>
+                        <div class="bus-booking-seat-grid-lower">
+                            <!-- Row 1 -->
+                            <input type="checkbox" id="bus-booking-L1" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L1" class="bus-booking-seat bus-booking-seater-seat">L1</label>
+                            
+                            <input type="checkbox" id="bus-booking-L2" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L2" class="bus-booking-seat bus-booking-seater-seat">L2</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-L3" class="bus-booking-seat-checkbox" disabled />
+                            <label for="bus-booking-L3" class="bus-booking-seat bus-booking-seater-seat bus-booking-booked">L3</label>
+                            
+                            <input type="checkbox" id="bus-booking-L4" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L4" class="bus-booking-seat bus-booking-seater-seat">L4</label>
+
+                            <!-- Row 2 -->
+                            <input type="checkbox" id="bus-booking-L5" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L5" class="bus-booking-seat bus-booking-seater-seat">L5</label>
+                            
+                            <input type="checkbox" id="bus-booking-L6" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L6" class="bus-booking-seat bus-booking-seater-seat">L6</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-L7" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L7" class="bus-booking-seat bus-booking-seater-seat">L7</label>
+                            
+                            <input type="checkbox" id="bus-booking-L8" class="bus-booking-seat-checkbox" disabled />
+                            <label for="bus-booking-L8" class="bus-booking-seat bus-booking-seater-seat bus-booking-booked">L8</label>
+
+                            <!-- Row 3 -->
+                            <input type="checkbox" id="bus-booking-L9" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L9" class="bus-booking-seat bus-booking-seater-seat bus-booking-ladies">L9</label>
+                            
+                            <input type="checkbox" id="bus-booking-L10" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L10" class="bus-booking-seat bus-booking-seater-seat bus-booking-ladies">L10</label>
+                            
+                            <div class="bus-booking-aisle"></div>
+                            
+                            <input type="checkbox" id="bus-booking-L11" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L11" class="bus-booking-seat bus-booking-seater-seat">L11</label>
+                            
+                            <input type="checkbox" id="bus-booking-L12" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L12" class="bus-booking-seat bus-booking-seater-seat">L12</label>
+
+                            <!-- Row 4 (Back Row - 5 seats) -->
+                            <input type="checkbox" id="bus-booking-L13" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L13" class="bus-booking-seat bus-booking-seater-seat">L13</label>
+                            
+                            <input type="checkbox" id="bus-booking-L14" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L14" class="bus-booking-seat bus-booking-seater-seat">L14</label>
+                            
+                            <input type="checkbox" id="bus-booking-L15" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L15" class="bus-booking-seat bus-booking-seater-seat">L15</label>
+                            
+                            <input type="checkbox" id="bus-booking-L16" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L16" class="bus-booking-seat bus-booking-seater-seat">L16</label>
+                            
+                            <input type="checkbox" id="bus-booking-L17" class="bus-booking-seat-checkbox" />
+                            <label for="bus-booking-L17" class="bus-booking-seat bus-booking-seater-seat">L17</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Summary -->
+                <div class="bus-booking-summary">
+                    <h3>Booking Summary</h3>
+                    <div class="bus-booking-summary-details">
+                        <p><strong>Selected Seats:</strong> <span id="bus-booking-selected-count">0</span></p>
+                        <p><strong>Seat Numbers:</strong> <span id="bus-booking-seat-numbers">None</span></p>
+                        <p><strong>Price per Seat:</strong> ₹850</p>
+                        <hr />
+                        <p class="bus-booking-total"><strong>Total Amount:</strong> ₹<span id="bus-booking-total-price">0</span></p>
+                    </div>
+                    <button class="bus-booking-proceed-btn">Proceed to Payment</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bus-booking-footer">
+            <p>&copy; 2025 North India Bus Booking. All rights reserved.</p>
+            <p>Contact: <a href="mailto:info@busbooking.com">info@busbooking.com</a> | Phone: +91-9876543210</p>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRTC Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="mainpage">
+    
+    <div class="headerbackground">
+   <nav class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+</nav>
+<div class="darkness">
+  
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+    <div class="hrtc-container">
+        <div class="hrtc-header">
+            <h1>🚌 Book Your HRTC Bus</h1>
+            <p class="hrtc-tagline">Travel across beautiful Himachal Pradesh</p>
+        </div>
+
+        <!-- Bus 1 -->
+        <div class="hrtc-bus-wrapper">
+            <input type="checkbox" id="hrtc-bus-toggle-1" class="hrtc-seat-toggle-checkbox">
+            <div class="hrtc-bus-card">
+                <div class="hrtc-bus-info">
+                    <div class="hrtc-bus-operator">HRTC</div>
+                    <div class="hrtc-bus-type">Ordinary NON-AC Seater (3 + 2) - 228</div>
+                </div>
+                <div class="hrtc-bus-timing">
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">12:10</div>
+                        <div class="hrtc-location">Karsog</div>
+                    </div>
+                    <div class="hrtc-duration">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            ircle cx="12" cy="12"2" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        06h 30m
+                    </div>
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">18:40</div>
+                        <div class="hrtc-location">Shimla</div>
+                    </div>
+                </div>
+                <div class="hrtc-bus-price-action">
+                    <div class="hrtc-price">From <span>₹285</span></div>
+                    <label for="hrtc-bus-toggle-1" class="hrtc-btn hrtc-btn-select-seats">
+                  
+                        <span class="hrtc-text-select">Select Seats</span>
+                        <span class="hrtc-text-hide">Hide Seats</span>
+                    </label>
+                    </a>
+                    <div class="hrtc-seats-left">37 Seats Left</div>
+                </div>
+            </div>
+            <div class="hrtc-seat-selection-panel">
+                <p class="hrtc-placeholder-text">Seat selection panel for the 12:10 bus would appear here.</p>
+            </div>
+        </div>
+
+        <!-- Bus 2 -->
+        <div class="hrtc-bus-wrapper">
+            <input type="checkbox" id="hrtc-bus-toggle-2" class="hrtc-seat-toggle-checkbox">
+            <div class="hrtc-bus-card">
+                <div class="hrtc-bus-info">
+                    <div class="hrtc-bus-operator">HRTC</div>
+                    <div class="hrtc-bus-type">Ordinary NON-AC Seater (3 + 2) - 200</div>
+                </div>
+                <div class="hrtc-bus-timing">
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">14:00</div>
+                        <div class="hrtc-location">Karsog</div>
+                    </div>
+                    <div class="hrtc-duration">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            ircle cx="12"2" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        05h 20m
+                    </div>
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">19:20</div>
+                        <div class="hrtc-location">Shimla</div>
+                    </div>
+                </div>
+                <div class="hrtc-bus-price-action">
+                    <div class="hrtc-price">From <span>₹285</span></div>
+                    <label for="hrtc-bus-toggle-2" class="hrtc-btn hrtc-btn-select-seats">
+                              
+                        <span class="hrtc-text-select">Select Seats</span>
+                        <span class="hrtc-text-hide">Hide Seats</span>
+                      
+                    </label>
+                    <div class="hrtc-seats-left">27 Seats Left</div>
+                </div>
+            </div>
+            <div class="hrtc-seat-selection-panel">
+                <p class="hrtc-placeholder-text">Seat selection panel for the 14:00 bus would appear here.</p>
+            </div>
+        </div>
+
+        <!-- Bus 3 with Full Seat Layout -->
+        <div class="hrtc-bus-wrapper">
+            <input type="checkbox" id="hrtc-bus-toggle-3" class="hrtc-seat-toggle-checkbox">
+            <div class="hrtc-bus-card">
+                <div class="hrtc-bus-info">
+                    <div class="hrtc-bus-operator">HRTC</div>
+                    <div class="hrtc-bus-type">Ordinary NON-AC Seater (3 + 2) - 136</div>
+                </div>
+                <div class="hrtc-bus-timing">
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">17:00</div>
+                        <div class="hrtc-location">Karsog</div>
+                    </div>
+                    <div class="hrtc-duration">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            ircle cx="12" cy="12" r="="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        05h 30m
+                    </div>
+                    <div class="hrtc-time-location">
+                        <div class="hrtc-time">22:30</div>
+                        <div class="hrtc-location">Shimla</div>
+                    </div>
+                </div>
+                <div class="hrtc-bus-price-action">
+                    <div class="hrtc-price">From <span>₹285</span></div>
+                    <label for="hrtc-bus-toggle-3" class="hrtc-btn hrtc-btn-select-seats">
+                        <span class="hrtc-text-select">Select Seats</span>
+                        <span class="hrtc-text-hide">Hide Seats</span>
+                    </label>
+                    <div class="hrtc-seats-left">27 Seats Left</div>
+                </div>
+            </div>
+
+            <div class="hrtc-seat-selection-panel">
+                <div class="hrtc-seat-layout-container">
+                    <div class="hrtc-driver-seat">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#2D7A3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#2D7A3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 2V6" stroke="#2D7A3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="hrtc-seat-grid">
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-1"><label for="s3-1" class="hrtc-seat hrtc-available">1</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-2"><label for="s3-2" class="hrtc-seat hrtc-available">2</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-3"><label for="s3-3" class="hrtc-seat hrtc-available">3</label></div>
+                        <div class="hrtc-aisle"></div>
+                        <div class="hrtc-seat-wrapper"><label class="hrtc-seat hrtc-female-booked">4</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-5"><label for="s3-5" class="hrtc-seat hrtc-available">5</label></div>
+                        
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-6"><label for="s3-6" class="hrtc-seat hrtc-available">6</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-7"><label for="s3-7" class="hrtc-seat hrtc-available">7</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-8"><label for="s3-8" class="hrtc-seat hrtc-available">8</label></div>
+                        <div class="hrtc-aisle"></div>
+                        <div class="hrtc-seat-wrapper"><label class="hrtc-seat hrtc-booked">9</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-10"><label for="s3-10" class="hrtc-seat hrtc-available">10</label></div>
+                        
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-11"><label for="s3-11" class="hrtc-seat hrtc-available">11</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-12" checked><label for="s3-12" class="hrtc-seat hrtc-available">12</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-13"><label for="s3-13" class="hrtc-seat hrtc-available">13</label></div>
+                        <div class="hrtc-aisle"></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-14"><label for="s3-14" class="hrtc-seat hrtc-available">14</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-15"><label for="s3-15" class="hrtc-seat hrtc-available">15</label></div>
+                        
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-16"><label for="s3-16" class="hrtc-seat hrtc-available">16</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-17"><label for="s3-17" class="hrtc-seat hrtc-female">17</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-18"><label for="s3-18" class="hrtc-seat hrtc-available">18</label></div>
+                        <div class="hrtc-aisle"></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-19"><label for="s3-19" class="hrtc-seat hrtc-available">19</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-20" checked><label for="s3-20" class="hrtc-seat hrtc-available">20</label></div>
+                        
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-21" checked><label for="s3-21" class="hrtc-seat hrtc-available">21</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-22"><label for="s3-22" class="hrtc-seat hrtc-available">22</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-23"><label for="s3-23" class="hrtc-seat hrtc-available">23</label></div>
+                        <div class="hrtc-aisle"></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-24"><label for="s3-24" class="hrtc-seat hrtc-available">24</label></div>
+                        <div class="hrtc-seat-wrapper"><input type="checkbox" id="s3-25" checked><label for="s3-25" class="hrtc-seat hrtc-available">25</label></div>
+                    </div>
+                    
+                    <div class="hrtc-seat-legend">
+                        <div class="hrtc-legend-item"><span class="hrtc-seat-icon hrtc-available"></span>Available</div>
+                        <div class="hrtc-legend-item"><span class="hrtc-seat-icon hrtc-female"></span>For Female</div>
+                        <div class="hrtc-legend-item"><span class="hrtc-seat-icon hrtc-female-booked"></span>Female Booked</div>
+                        <div class="hrtc-legend-item"><span class="hrtc-seat-icon hrtc-booked"></span>Booked</div>
+                        <div class="hrtc-legend-item"><span class="hrtc-seat-icon hrtc-selected"></span>Selected</div>
+                    </div>
+                </div>
+                
+                <div class="hrtc-booking-details">
+                    <div class="hrtc-point-tabs">
+                        <input type="radio" name="hrtc-point-tab-3" id="hrtc-tab-boarding-3" class="hrtc-tab-radio" checked>
+                        <label for="hrtc-tab-boarding-3" class="hrtc-tab">Boarding Points</label>
+                        
+                        <input type="radio" name="hrtc-point-tab-3" id="hrtc-tab-dropping-3" class="hrtc-tab-radio">
+                        <label for="hrtc-tab-dropping-3" class="hrtc-tab">Dropping Points</label>
+
+                        <div class="hrtc-point-list hrtc-boarding-list">
+                            <div class="hrtc-point-item">
+                                <input type="radio" name="hrtc-boarding-point-3" id="hrtc-bp-1" checked>
+                                <label for="hrtc-bp-1">
+                                    <span>KARSOG</span>
+                                    <span class="hrtc-point-time">17:00</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="hrtc-point-list hrtc-dropping-list">
+                            <div class="hrtc-point-item">
+                                <input type="radio" name="hrtc-dropping-point-3" id="hrtc-dp-1" checked>
+                                <label for="hrtc-dp-1">
+                                    <span>SHIMLA ISBT TUTIKANDI</span>
+                                    <span class="hrtc-point-time">22:30</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hrtc-summary">
+                        <div class="hrtc-price-details">
+                            <div class="hrtc-total-price">₹1140</div>
+                            <div class="hrtc-seat-count">4 Seat(s) Selected</div>
+                        </div>
+                        <button class="hrtc-btn hrtc-btn-proceed">Proceed to Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

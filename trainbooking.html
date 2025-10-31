@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>home page</title>
+    
+  </head>
+  <body>
+    <div class="mainpage">
+    
+    <div class="headerbackground">
+   <div class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+
+<div class="darkness">
+  
+</div>
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+<nav class="mainnavstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+  <div class="navstickeytrain">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</div>  
+
+  
+  <div class="trainbooking-page">
+    <div class="trainbooking-train-booking">
+      <!-- Hero Section -->
+      <div class="trainbooking-hero-section">
+        <div class="trainbooking-mountain-overlay"></div>
+        <div class="trainbooking-hero-content">
+          <h1 class="trainbooking-hero-title">
+            <span class="trainbooking-indian-rail">Indian Railways</span>
+            <span class="trainbooking-subtitle">Journey Through the Himalayas</span>
+          </h1>
+          <p class="trainbooking-hero-tagline">Experience the Scenic Beauty of North India</p>
+        </div>
+      </div>
+
+
+      <!-- Navigation Tabs using :target -->
+      <div class="trainbooking-container">
+        <div class="trainbooking-tabs-wrapper">
+          <a href="#search" class="trainbooking-tab" id="trainbooking-tab-search">🔍 Search Trains</a>
+          <a href="#trains" class="trainbooking-tab" id="trainbooking-tab-trains">🚂 Available Trains</a>
+          <a href="#seats" class="trainbooking-tab" id="trainbooking-tab-seats">💺 Select Seats</a>
+          <a href="#booking" class="trainbooking-tab" id="trainbooking-tab-booking">📋 Booking Details</a>
+        </div>
+
+
+        <!-- Search Form -->
+        <div id="search" class="trainbooking-tab-content">
+          <div class="trainbooking-search-card">
+            <h2 class="trainbooking-card-title">Plan Your Journey</h2>
+            <form class="trainbooking-search-form">
+              <div class="trainbooking-form-row">
+                <div class="trainbooking-form-group">
+                  <label for="from">From</label>
+                  <select id="from" class="trainbooking-train">
+                    <option>Delhi</option>
+                    <option>Chandigarh</option>
+                    <option>Amritsar</option>
+                    <option>Shimla</option>
+                    <option>Kalka</option>
+                    <option>Jammu Tawi</option>
+                    <option>Pathankot</option>
+                    <option>Jogindernagar</option>
+                    <option>Dharamshala</option>
+                  </select>
+                </div>
+                <div class="trainbooking-swap-icon">⇄</div>
+                <div class="trainbooking-form-group">
+                  <label for="to">To</label>
+                  <select id="to" class="trainbooking-train">
+                    <option>Shimla</option>
+                    <option>Delhi</option>
+                    <option>Chandigarh</option>
+                    <option>Amritsar</option>
+                    <option>Kalka</option>
+                    <option>Jammu Tawi</option>
+                    <option>Pathankot</option>
+                    <option>Jogindernagar</option>
+                    <option>Dharamshala</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="trainbooking-form-row">
+                <div class="trainbooking-form-group">
+                  <label for="date">Journey Date</label>
+                  <input type="date" id="date" class="trainbooking-train" />
+                </div>
+                <div class="trainbooking-form-group">
+                  <label for="class">Class</label>
+                  <select id="class" class="trainbooking-train">
+                    <option>All Classes</option>
+                    <option>Sleeper (SL)</option>
+                    <option>3rd AC (3A)</option>
+                    <option>2nd AC (2A)</option>
+                    <option>1st AC (1A)</option>
+                    <option>AC Chair Car (CC)</option>
+                    <option>Executive Class (EC)</option>
+                    <option>General</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <a href="#trains" class="trainbooking-btn-search">Search Trains</a>
+            </form>
+          </div>
+        </div>
+
+
+        <!-- Train List -->
+        <div id="trains" class="trainbooking-tab-content">
+          <div class="trainbooking-trains-list">
+            <h2 class="trainbooking-card-title">Available Trains</h2>
+            
+            <!-- Train 1 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Himalayan Queen Express</h3>
+                  <div class="trainbooking-train-number">12345</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-express">Express</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">06:00 AM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">8h 30m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Shimla</div>
+                  <div class="trainbooking-station-time">02:30 PM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">Sleeper</span>
+                  <span class="trainbooking-fare">₹450</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 2 - Toy Train -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Kalka-Shimla Toy Train</h3>
+                  <div class="trainbooking-train-number">52455</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-toy-train">Toy Train</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Kalka</div>
+                  <div class="trainbooking-station-time">05:10 AM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">5h 20m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Shimla</div>
+                  <div class="trainbooking-station-time">10:30 AM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">General</span>
+                  <span class="trainbooking-fare">₹250</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 3 - Toy Train -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Shivalik Deluxe Toy Train</h3>
+                  <div class="trainbooking-train-number">52451</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-toy-train">Toy Train</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Kalka</div>
+                  <div class="trainbooking-station-time">12:10 PM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">5h 20m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Shimla</div>
+                  <div class="trainbooking-station-time">05:30 PM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">AC Chair Car</span>
+                  <span class="trainbooking-fare">₹700</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 4 - Toy Train -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Kangra Valley Toy Train</h3>
+                  <div class="trainbooking-train-number">52463</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-toy-train">Toy Train</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Pathankot</div>
+                  <div class="trainbooking-station-time">06:00 AM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">10h 35m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Jogindernagar</div>
+                  <div class="trainbooking-station-time">04:35 PM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">General</span>
+                  <span class="trainbooking-fare">₹180</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 5 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Shatabdi Express</h3>
+                  <div class="trainbooking-train-number">12011</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-shatabdi">Shatabdi</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">07:40 AM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">4h 30m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Kalka</div>
+                  <div class="trainbooking-station-time">12:10 PM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">AC Chair Car</span>
+                  <span class="trainbooking-fare">₹750</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 6 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Vande Bharat Express</h3>
+                  <div class="trainbooking-train-number">22439</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-vande-bharat">Vande Bharat</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">06:10 AM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">3h 10m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Chandigarh</div>
+                  <div class="trainbooking-station-time">09:20 AM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">Executive</span>
+                  <span class="trainbooking-fare">₹1200</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 7 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Kalka Mail</h3>
+                  <div class="trainbooking-train-number">12311</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-express">Express</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">11:30 PM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">6h 00m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Kalka</div>
+                  <div class="trainbooking-station-time">05:30 AM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">Sleeper</span>
+                  <span class="trainbooking-fare">₹350</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 8 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Himgiri Express</h3>
+                  <div class="trainbooking-train-number">14553</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-express">Express</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">09:30 PM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">11h 45m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Jammu Tawi</div>
+                  <div class="trainbooking-station-time">09:15 AM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">3AC</span>
+                  <span class="trainbooking-fare">₹500</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+
+
+            <!-- Train 9 -->
+            <div class="trainbooking-train-card trainbooking-train">
+              <div class="trainbooking-train-header">
+                <div>
+                  <h3 class="trainbooking-train-name">Golden Temple Mail</h3>
+                  <div class="trainbooking-train-number">12903</div>
+                </div>
+                <div class="trainbooking-train-type trainbooking-rajdhani">Rajdhani</div>
+              </div>
+              <div class="trainbooking-train-route">
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Delhi</div>
+                  <div class="trainbooking-station-time">10:30 PM</div>
+                </div>
+                <div class="trainbooking-route-line">
+                  <div class="trainbooking-duration">7h 45m</div>
+                  <div class="trainbooking-line"></div>
+                </div>
+                <div class="trainbooking-station">
+                  <div class="trainbooking-station-name">Amritsar</div>
+                  <div class="trainbooking-station-time">06:15 AM</div>
+                </div>
+              </div>
+              <div class="trainbooking-train-footer">
+                <div class="trainbooking-train-info">
+                  <span class="trainbooking-class-badge">2AC</span>
+                  <span class="trainbooking-fare">₹1500</span>
+                </div>
+                <a href="#seats" class="trainbooking-btn-select">Select Train</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Seat Selection -->
+        <div id="seats" class="trainbooking-tab-content">
+          <div class="trainbooking-seats-card">
+            <h2 class="trainbooking-card-title">Select Your Seats</h2>
+            <div class="trainbooking-selected-train-info">
+              <strong>Kalka-Shimla Toy Train</strong> (52455)
+            </div>
+            
+            <div class="trainbooking-seat-legend">
+              <div class="trainbooking-legend-item">
+                <div class="trainbooking-seat-demo trainbooking-available"></div>
+                <span>Available</span>
+              </div>
+              <div class="trainbooking-legend-item">
+                <div class="trainbooking-seat-demo trainbooking-selected"></div>
+                <span>Selected</span>
+              </div>
+              <div class="trainbooking-legend-item">
+                <div class="trainbooking-seat-demo trainbooking-booked"></div>
+                <span>Booked</span>
+              </div>
+            </div>
+
+
+            <form class="trainbooking-seats-grid">
+              <!-- Row 1 -->
+              <input type="checkbox" id="seat1" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat1" class="trainbooking-seat trainbooking-train">1</label>
+              
+              <input type="checkbox" id="seat2" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat2" class="trainbooking-seat trainbooking-train">2</label>
+              
+              <input type="checkbox" id="seat3" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat3" class="trainbooking-seat trainbooking-train">3</label>
+              
+              <input type="checkbox" id="seat4" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat4" class="trainbooking-seat trainbooking-train trainbooking-booked">4</label>
+              
+              <input type="checkbox" id="seat5" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat5" class="trainbooking-seat trainbooking-train">5</label>
+              
+              <input type="checkbox" id="seat6" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat6" class="trainbooking-seat trainbooking-train">6</label>
+              
+              <input type="checkbox" id="seat7" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat7" class="trainbooking-seat trainbooking-train trainbooking-booked">7</label>
+              
+              <input type="checkbox" id="seat8" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat8" class="trainbooking-seat trainbooking-train">8</label>
+              
+              <input type="checkbox" id="seat9" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat9" class="trainbooking-seat trainbooking-train">9</label>
+              
+              <input type="checkbox" id="seat10" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat10" class="trainbooking-seat trainbooking-train trainbooking-booked">10</label>
+
+
+              <!-- Row 2 -->
+              <input type="checkbox" id="seat11" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat11" class="trainbooking-seat trainbooking-train">11</label>
+              
+              <input type="checkbox" id="seat12" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat12" class="trainbooking-seat trainbooking-train">12</label>
+              
+              <input type="checkbox" id="seat13" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat13" class="trainbooking-seat trainbooking-train trainbooking-booked">13</label>
+              
+              <input type="checkbox" id="seat14" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat14" class="trainbooking-seat trainbooking-train">14</label>
+              
+              <input type="checkbox" id="seat15" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat15" class="trainbooking-seat trainbooking-train">15</label>
+              
+              <input type="checkbox" id="seat16" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat16" class="trainbooking-seat trainbooking-train">16</label>
+              
+              <input type="checkbox" id="seat17" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat17" class="trainbooking-seat trainbooking-train">17</label>
+              
+              <input type="checkbox" id="seat18" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat18" class="trainbooking-seat trainbooking-train trainbooking-booked">18</label>
+              
+              <input type="checkbox" id="seat19" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat19" class="trainbooking-seat trainbooking-train">19</label>
+              
+              <input type="checkbox" id="seat20" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat20" class="trainbooking-seat trainbooking-train">20</label>
+
+
+              <!-- Row 3 -->
+              <input type="checkbox" id="seat21" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat21" class="trainbooking-seat trainbooking-train">21</label>
+              
+              <input type="checkbox" id="seat22" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat22" class="trainbooking-seat trainbooking-train">22</label>
+              
+              <input type="checkbox" id="seat23" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat23" class="trainbooking-seat trainbooking-train">23</label>
+              
+              <input type="checkbox" id="seat24" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat24" class="trainbooking-seat trainbooking-train trainbooking-booked">24</label>
+              
+              <input type="checkbox" id="seat25" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat25" class="trainbooking-seat trainbooking-train">25</label>
+              
+              <input type="checkbox" id="seat26" class="trainbooking-seat-input trainbooking-train trainbooking-booked" disabled>
+              <label for="seat26" class="trainbooking-seat trainbooking-train trainbooking-booked">26</label>
+              
+              <input type="checkbox" id="seat27" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat27" class="trainbooking-seat trainbooking-train">27</label>
+              
+              <input type="checkbox" id="seat28" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat28" class="trainbooking-seat trainbooking-train">28</label>
+              
+              <input type="checkbox" id="seat29" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat29" class="trainbooking-seat trainbooking-train">29</label>
+              
+              <input type="checkbox" id="seat30" class="trainbooking-seat-input trainbooking-train">
+              <label for="seat30" class="trainbooking-seat trainbooking-train">30</label>
+            </form>
+
+
+            <div class="trainbooking-seat-summary">
+              <div>Click on available seats to select</div>
+              <a href="#booking" class="trainbooking-btn-proceed">Proceed to Booking</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Booking Form -->
+        <div id="booking" class="trainbooking-tab-content">
+          <div class="trainbooking-booking-card">
+            <h2 class="trainbooking-card-title">Passenger Details</h2>
+            
+            <div class="trainbooking-booking-summary">
+              <div class="trainbooking-summary-row">
+                <span>Train:</span>
+                <strong>Kalka-Shimla Toy Train (52455)</strong>
+              </div>
+              <div class="trainbooking-summary-row">
+                <span>Route:</span>
+                <strong>Kalka → Shimla</strong>
+              </div>
+              <div class="trainbooking-summary-row">
+                <span>Journey Date:</span>
+                <strong>Selected Date</strong>
+              </div>
+              <div class="trainbooking-summary-row">
+                <span>Total Fare:</span>
+                <strong class="trainbooking-total-fare">₹250</strong>
+              </div>
+            </div>
+
+
+            <form class="trainbooking-passenger-form">
+              <div class="trainbooking-form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="trainbooking-train" placeholder="Enter full name" required />
+              </div>
+
+
+              <div class="trainbooking-form-row">
+                <div class="trainbooking-form-group">
+                  <label for="age">Age</label>
+                  <input type="number" id="age" class="trainbooking-train" placeholder="Age" required />
+                </div>
+                <div class="trainbooking-form-group">
+                  <label for="gender">Gender</label>
+                  <select id="gender" class="trainbooking-train" required>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="trainbooking-form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" class="trainbooking-train" placeholder="10-digit mobile number" required />
+              </div>
+
+
+              <div class="trainbooking-form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="trainbooking-train" placeholder="email@example.com" required />
+              </div>
+
+
+              <div class="trainbooking-form-group">
+                <label for="id-proof">ID Proof</label>
+                <select id="id-proof" class="trainbooking-train" required>
+                  <option>Aadhaar Card</option>
+                  <option>PAN Card</option>
+                  <option>Voter ID</option>
+                  <option>Passport</option>
+                  <option>Driving License</option>
+                </select>
+              </div>
+
+
+              <button type="submit" class="trainbooking-btn-confirm">Confirm Booking</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Footer -->
+      <footer class="trainbooking-footer">
+        <div class="trainbooking-footer-content">
+          <p>Indian Railways - Ministry of Railways, Government of India</p>
+          <p class="trainbooking-footer-tagline">Lifeline of the Nation</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

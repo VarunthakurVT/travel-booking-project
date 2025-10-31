@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Hub - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loginpage">
+    <div class="container">
+        <div class="form-container">
+            <div class="form-header">
+                <h1>Easy booking</h1>
+                <p class="tagline">Your Journey Starts Here</p>
+            </div>
+
+            <div class="form-box signup-form">
+                <h2>Create Account</h2>
+                <p class="subtitle">Join us and explore the world</p>
+                
+                <form action="index.html" method="get">
+                    <div class="input-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="signup-email">Email Address</label>
+                        <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="signup-confirm">Confirm Password</label>
+                        <input type="password" id="signup-confirm" name="confirm_password" placeholder="Confirm your password" required>
+                    </div>
+
+                    <label class="terms-checkbox">
+                        <input type="checkbox" name="terms" required>
+                        <span>I agree to the <a href="terms.html">Terms & Conditions</a></span>
+                    </label>
+
+                    <a href="index.html" class="btn btn-primary">SIGN UP</a>
+                </form>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="social-login">
+                    <button type="button" class="btn btn-social btn-google">
+                        <span>Sign up with Google</span>
+                    </button>
+                    <button type="button" class="btn btn-social btn-facebook">
+                        <span>Sign up with Facebook</span>
+                    </button>
+                </div>
+
+                <p class="switch-form">
+                    Already have an account? <a href="login.html">Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

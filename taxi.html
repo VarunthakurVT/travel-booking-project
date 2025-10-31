@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxiGo - Professional Taxi Booking Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="Taxibooking">
+    <div class="mainpage">
+    
+    <div class="headerbackground">
+   <nav class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+</nav>
+<div class="darkness">
+  
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+ <nav class="navstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+  <div class="navstickeytaxi">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</div>  
+    <div class="Taxi-parent">
+        <!-- Background Shapes -->
+        <div class="Taxi-bg-shapes">
+            <div class="Taxi-shape Taxi-shape-1"></div>
+            <div class="Taxi-shape Taxi-shape-2"></div>
+            <div class="Taxi-shape Taxi-shape-3"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="Taxi-header">
+            <nav class="Taxi-nav">
+                <div class="Taxi-logo">TaxiGo</div>
+                <ul class="Taxi-menu">
+                    <li class="Taxi-menu-item">Home</li>
+                    <li class="Taxi-menu-item">Services</li>
+                    <li class="Taxi-menu-item">Pricing</li>
+                    <li class="Taxi-menu-item">Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="Taxi-hero">
+            <h1 class="Taxi-hero-title">Professional Taxi Booking Service</h1>
+            <p class="Taxi-hero-subtitle">Safe, Reliable, and Affordable Rides Across India</p>
+
+            <!-- Booking Form -->
+            <div class="Taxi-booking-container">
+                <h2 class="Taxi-form-title">Book Your Ride Now</h2>
+                <form class="Taxi-form">
+                    <div class="Taxi-form-row">
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Your Name</label>
+                            <input type="text" class="Taxi-form-input" placeholder="Enter your name" required>
+                        </div>
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Phone Number</label>
+                            <input type="tel" class="Taxi-form-input" placeholder="Enter phone number" required>
+                        </div>
+                    </div>
+
+                    <div class="Taxi-form-row">
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Pickup Location</label>
+                            <input type="text" class="Taxi-form-input" placeholder="Enter pickup location" required>
+                        </div>
+                    
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Drop Location</label>
+                            <input type="text" class="Taxi-form-input" placeholder="Enter drop location" required>
+                        </div>
+                    </div>
+
+                    <div class="Taxi-form-row">
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Pickup Date</label>
+                            <input type="date" class="Taxi-form-input" required>
+                        </div>
+                        <div class="Taxi-form-group">
+                            <label class="Taxi-form-label">Pickup Time</label>
+                            <input type="time" class="Taxi-form-input" required>
+                        </div>
+                    </div>
+
+                    <!-- Car Type Selection -->
+                    <div class="Taxi-form-group Taxi-form-full">
+                        <label class="Taxi-form-label">Select Car Type</label>
+                        <div class="Taxi-car-types">
+                            <label class="Taxi-car-type">
+                                <input type="radio" name="car-type" value="sedan" checked hidden>
+                                <div class="Taxi-car-type-content">
+                                    <div class="Taxi-car-type-icon">🚗</div>
+                                    <div class="Taxi-car-type-name">Sedan</div>
+                                    <div class="Taxi-car-type-price">₹10/km</div>
+                                </div>
+                            </label>
+                            <label class="Taxi-car-type">
+                                <input type="radio" name="car-type" value="suv" hidden>
+                                <div class="Taxi-car-type-content">
+                                    <div class="Taxi-car-type-icon">🚙</div>
+                                    <div class="Taxi-car-type-name">SUV</div>
+                                    <div class="Taxi-car-type-price">₹15/km</div>
+                                </div>
+                            </label>
+                            <label class="Taxi-car-type">
+                                <input type="radio" name="car-type" value="luxury" hidden>
+                                <div class="Taxi-car-type-content">
+                                    <div class="Taxi-car-type-icon">🚕</div>
+                                    <div class="Taxi-car-type-name">Luxury</div>
+                                    <div class="Taxi-car-type-price">₹25/km</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Options -->
+                    <div class="Taxi-form-group Taxi-form-full">
+                        <label class="Taxi-form-label">Additional Services</label>
+                        <div class="Taxi-additional-services">
+                            <label class="Taxi-checkbox">
+                                <input type="checkbox" hidden>
+                                <span class="Taxi-checkbox-custom"></span>
+                                <span class="Taxi-checkbox-label">AC Required</span>
+                            </label>
+                            <label class="Taxi-checkbox">
+                                <input type="checkbox" hidden>
+                                <span class="Taxi-checkbox-custom"></span>
+                                <span class="Taxi-checkbox-label">Child Seat</span>
+                            </label>
+                            <label class="Taxi-checkbox">
+                                <input type="checkbox" hidden>
+                                <span class="Taxi-checkbox-custom"></span>
+                                <span class="Taxi-checkbox-label">Extra Luggage</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="Taxi-form-group Taxi-form-full">
+                        <label class="Taxi-form-label">Special Instructions</label>
+                        <textarea class="Taxi-form-input Taxi-textarea" rows="4" placeholder="Any special requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="Taxi-submit-btn">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="Taxi-features">
+            <h2 class="Taxi-features-title">Why Choose TaxiGo?</h2>
+            <div class="Taxi-features-grid">
+                <div class="Taxi-feature-card">
+                    <div class="Taxi-feature-icon">⚡</div>
+                    <h3 class="Taxi-feature-title">Quick Booking</h3>
+                    <p class="Taxi-feature-desc">Book your ride in just 30 seconds with our easy-to-use platform</p>
+                </div>
+                <div class="Taxi-feature-card">
+                    <div class="Taxi-feature-icon">🛡️</div>
+                    <h3 class="Taxi-feature-title">Safe & Secure</h3>
+                    <p class="Taxi-feature-desc">Verified drivers and GPS tracking for your safety</p>
+                </div>
+                <div class="Taxi-feature-card">
+                    <div class="Taxi-feature-icon">💰</div>
+                    <h3 class="Taxi-feature-title">Best Prices</h3>
+                    <p class="Taxi-feature-desc">Competitive rates with no hidden charges</p>
+                </div>
+                <div class="Taxi-feature-card">
+                    <div class="Taxi-feature-icon">🕒</div>
+                    <h3 class="Taxi-feature-title">24/7 Service</h3>
+                    <p class="Taxi-feature-desc">Available round the clock for your convenience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="Taxi-pricing">
+            <h2 class="Taxi-pricing-title">Our Pricing Plans</h2>
+            <div class="Taxi-pricing-grid">
+                <div class="Taxi-price-card">
+                    <h3 class="Taxi-price-type">Sedan</h3>
+                    <div class="Taxi-price-amount">₹10</div>
+                    <p class="Taxi-price-unit">per kilometer</p>
+                    <ul class="Taxi-price-features">
+                        <li class="Taxi-price-feature">4 Passengers</li>
+                        <li class="Taxi-price-feature">AC Available</li>
+                        <li class="Taxi-price-feature">2 Luggage Bags</li>
+                        <li class="Taxi-price-feature">GPS Tracking</li>
+                    </ul>
+                    <button class="Taxi-price-btn">Select Plan</button>
+                </div>
+                <div class="Taxi-price-card">
+                    <h3 class="Taxi-price-type">SUV</h3>
+                    <div class="Taxi-price-amount">₹15</div>
+                    <p class="Taxi-price-unit">per kilometer</p>
+                    <ul class="Taxi-price-features">
+                        <li class="Taxi-price-feature">6 Passengers</li>
+                        <li class="Taxi-price-feature">AC Available</li>
+                        <li class="Taxi-price-feature">4 Luggage Bags</li>
+                        <li class="Taxi-price-feature">GPS Tracking</li>
+                    </ul>
+                    <button class="Taxi-price-btn">Select Plan</button>
+                </div>
+                <div class="Taxi-price-card">
+                    <h3 class="Taxi-price-type">Luxury</h3>
+                    <div class="Taxi-price-amount">₹25</div>
+                    <p class="Taxi-price-unit">per kilometer</p>
+                    <ul class="Taxi-price-features">
+                        <li class="Taxi-price-feature">4 Passengers</li>
+                        <li class="Taxi-price-feature">Premium AC</li>
+                        <li class="Taxi-price-feature">3 Luggage Bags</li>
+                        <li class="Taxi-price-feature">Premium Service</li>
+                    </ul>
+                    <button class="Taxi-price-btn">Select Plan</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="Taxi-footer">
+            <div class="Taxi-footer-content">
+                <p class="Taxi-footer-text">Your trusted partner for safe and comfortable rides</p>
+                <ul class="Taxi-footer-links">
+                    <li><a href="#" class="Taxi-footer-link">About Us</a></li>
+                    <li><a href="#" class="Taxi-footer-link">Terms & Conditions</a></li>
+                    <li><a href="#" class="Taxi-footer-link">Privacy Policy</a></li>
+                    <li><a href="#" class="Taxi-footer-link">Contact</a></li>
+                </ul>
+                <p class="Taxi-footer-copyright">© 2025 TaxiGo. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

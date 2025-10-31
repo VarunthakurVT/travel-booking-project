@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Hotel Booking - Premium Stays in India</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainpage">
+    
+    <div class="headerbackground">
+   <div class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+
+<div class="darkness">
+  
+</div>
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+<nav class="mainnavstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+<nav class="navhotel">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+
+      <!-- Hero Section -->
+      <section class="hotelbookingsystem-hero">
+        <div class="hotelbookingsystem-hero-overlay"></div>
+        <div class="hotelbookingsystem-hero-content">
+          <h1 class="hotelbookingsystem-hero-title">
+            <span class="hotelbookingsystem-title-main">Discover Incredible India</span>
+            <span class="hotelbookingsystem-title-sub">Heritage Hotels & Luxury Resorts</span>
+          </h1>
+          <p class="hotelbookingsystem-hero-tagline">From royal palaces to himalayan retreats</p>
+          <a href="#search" class="hotelbookingsystem-hero-btn">Start Your Journey</a>
+        </div>
+        <div class="hotelbookingsystem-scroll-indicator">
+          <span>↓</span>
+        </div>
+      </section>
+
+
+      <!-- Quick Search Bar -->
+      <div class="hotelbookingsystem-quick-search">
+        <div class="hotelbookingsystem-quick-search-container">
+          <div class="hotelbookingsystem-search-field">
+            <label>📍 Destination</label>
+            <input type="text" placeholder="Delhi, Jaipur, Goa..." class="hotelbookingsystem-input">
+          </div>
+          <div class="hotelbookingsystem-search-field">
+            <label>📅 Check-in</label>
+            <input type="date" class="hotelbookingsystem-input">
+          </div>
+          <div class="hotelbookingsystem-search-field">
+            <label>📅 Check-out</label>
+            <input type="date" class="hotelbookingsystem-input">
+          </div>
+          <div class="hotelbookingsystem-search-field">
+            <label>👥 Guests</label>
+            <select class="hotelbookingsystem-input">
+              <option>1 Guest</option>
+              <option>2 Guests</option>
+              <option>3 Guests</option>
+              <option>4+ Guests</option>
+            </select>
+          </div>
+          <button class="hotelbookingsystem-search-btn">Search</button>
+        </div>
+      </div>
+
+
+      <!-- Main Content Container -->
+      <div class="hotelbookingsystem-container">
+        
+        <!-- Search Section -->
+        <section id="search" class="hotelbookingsystem-section">
+          <h2 class="hotelbookingsystem-section-title">Find Your Dream Hotel</h2>
+          <div class="hotelbookingsystem-search-card">
+            <div class="hotelbookingsystem-filter-group">
+              <h3 class="hotelbookingsystem-filter-title">Filters</h3>
+              
+              <div class="hotelbookingsystem-filter-item">
+                <label class="hotelbookingsystem-filter-label">Price Range</label>
+                <div class="hotelbookingsystem-price-range">
+                  <span>₹2,000 - ₹25,000</span>
+                </div>
+              </div>
+
+
+              <div class="hotelbookingsystem-filter-item">
+                <label class="hotelbookingsystem-filter-label">Star Rating</label>
+                <div class="hotelbookingsystem-rating-filters">
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>⭐⭐⭐⭐⭐ (5 Star)</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>⭐⭐⭐⭐ (4 Star)</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>⭐⭐⭐ (3 Star)</span>
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="hotelbookingsystem-filter-item">
+                <label class="hotelbookingsystem-filter-label">Amenities</label>
+                <div class="hotelbookingsystem-amenity-filters">
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>🏊 Pool</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>🍽️ Restaurant</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>📶 Free WiFi</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>🅿️ Parking</span>
+                  </label>
+                  <label class="hotelbookingsystem-checkbox-label">
+                    <input type="checkbox" class="hotelbookingsystem-checkbox">
+                    <span>💆 Spa</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Hotels List Section -->
+        <section id="hotels" class="hotelbookingsystem-section">
+          <h2 class="hotelbookingsystem-section-title">Featured Hotels in India</h2>
+          
+          <!-- Hotel Card 1 - Jaipur -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-badge">Best Seller</div>
+              <div class="hotelbookingsystem-hotel-img-placeholder">🏰</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">Raj Palace Heritage Hotel</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.6</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Pink City, Jaipur, Rajasthan</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Experience royal grandeur in this 19th-century palace hotel. Traditional Rajasthani architecture meets modern luxury with stunning courtyards and heritage rooms.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🏊 Pool</span>
+                <span class="hotelbookingsystem-amenity-tag">🍽️ Restaurant</span>
+                <span class="hotelbookingsystem-amenity-tag">💆 Spa</span>
+                <span class="hotelbookingsystem-amenity-tag">🎨 Heritage Tours</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹8,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hotel Card 2 - Goa -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-badge hotelbookingsystem-badge-new">New</div>
+              <div class="hotelbookingsystem-hotel-img-placeholder">🌴</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">Tropical Paradise Beach Resort</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.8</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Calangute Beach, North Goa</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Beachfront luxury resort with private beach access, infinity pool, and stunning Arabian Sea views. Perfect for a tropical getaway with world-class amenities.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🏖️ Private Beach</span>
+                <span class="hotelbookingsystem-amenity-tag">🍹 Beach Bar</span>
+                <span class="hotelbookingsystem-amenity-tag">🎾 Sports</span>
+                <span class="hotelbookingsystem-amenity-tag">📶 WiFi</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹12,499</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hotel Card 3 - Shimla -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-badge hotelbookingsystem-badge-sale">15% Off</div>
+              <div class="hotelbookingsystem-hotel-img-placeholder">⛰️</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">Himalayan Mountain Lodge</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.2</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Mall Road, Shimla, Himachal Pradesh</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Colonial-era charm with breathtaking mountain views. Cozy fireplaces, wooden interiors, and stunning vistas of the Himalayas make this a perfect hill station retreat.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🔥 Fireplace</span>
+                <span class="hotelbookingsystem-amenity-tag">☕ Café</span>
+                <span class="hotelbookingsystem-amenity-tag">🚡 Valley View</span>
+                <span class="hotelbookingsystem-amenity-tag">🅿️ Parking</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹5,499</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hotel Card 4 - Delhi -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-img-placeholder">🏛️</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">The Imperial Grand Hotel</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.7</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Connaught Place, New Delhi</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Iconic luxury hotel in the heart of Delhi. Colonial architecture, award-winning restaurants, and impeccable service make this a landmark destination.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🍷 Fine Dining</span>
+                <span class="hotelbookingsystem-amenity-tag">💼 Business Center</span>
+                <span class="hotelbookingsystem-amenity-tag">🛎️ Concierge</span>
+                <span class="hotelbookingsystem-amenity-tag">🚗 Valet</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹15,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hotel Card 5 - Udaipur -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-badge">Recommended</div>
+              <div class="hotelbookingsystem-hotel-img-placeholder">🕌</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">Lake Palace Heritage Resort</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.9</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Pichola Lake, Udaipur, Rajasthan</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Float on tranquil waters in this stunning lake palace. Maharaja-style suites, rooftop dining with sunset views, and traditional Rajasthani hospitality.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🚤 Boat Transfer</span>
+                <span class="hotelbookingsystem-amenity-tag">🌅 Sunset Views</span>
+                <span class="hotelbookingsystem-amenity-tag">🎭 Cultural Shows</span>
+                <span class="hotelbookingsystem-amenity-tag">👑 Royal Suites</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹22,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hotel Card 6 - Kerala -->
+          <div class="hotelbookingsystem-hotel-card">
+            <div class="hotelbookingsystem-hotel-image">
+              <div class="hotelbookingsystem-hotel-badge hotelbookingsystem-badge-new">Eco-Friendly</div>
+              <div class="hotelbookingsystem-hotel-img-placeholder">🌿</div>
+            </div>
+            <div class="hotelbookingsystem-hotel-info">
+              <div class="hotelbookingsystem-hotel-header">
+                <h3 class="hotelbookingsystem-hotel-name">Backwater Eco Resort</h3>
+                <div class="hotelbookingsystem-hotel-rating">
+                  <span class="hotelbookingsystem-stars">⭐⭐⭐⭐</span>
+                  <span class="hotelbookingsystem-rating-score">9.3</span>
+                </div>
+              </div>
+              <p class="hotelbookingsystem-hotel-location">📍 Alleppey, Kerala</p>
+              <p class="hotelbookingsystem-hotel-description">
+                Serene backwater resort nestled in coconut groves. Traditional Kerala houseboat experience, Ayurvedic spa, and authentic local cuisine in a peaceful setting.
+              </p>
+              <div class="hotelbookingsystem-hotel-amenities">
+                <span class="hotelbookingsystem-amenity-tag">🛶 Houseboat</span>
+                <span class="hotelbookingsystem-amenity-tag">🧘 Yoga</span>
+                <span class="hotelbookingsystem-amenity-tag">💆 Ayurveda</span>
+                <span class="hotelbookingsystem-amenity-tag">🌾 Organic Food</span>
+              </div>
+              <div class="hotelbookingsystem-hotel-footer">
+                <div class="hotelbookingsystem-price-info">
+                  <span class="hotelbookingsystem-price-label">From</span>
+                  <span class="hotelbookingsystem-price">₹6,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#rooms" class="hotelbookingsystem-view-btn">View Rooms</a>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="hotelbookingsystem-section">
+          <h2 class="hotelbookingsystem-section-title">Available Rooms</h2>
+          
+          <!-- Room Card 1 - Maharaja Suite -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">👑</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Maharaja Suite</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 2 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 55 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ King Bed</span>
+                <span class="hotelbookingsystem-room-spec">🏰 Palace View</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Royal suite with hand-carved furniture, traditional Rajasthani decor, separate living area, and stunning palace courtyard views. Experience authentic maharaja luxury.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ Air Conditioning</span>
+                <span>✓ Minibar</span>
+                <span>✓ Butler Service</span>
+                <span>✓ Jacuzzi</span>
+                <span>✓ Private Balcony</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹8,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Room Card 2 - Deluxe Room -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">🛏️</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Deluxe Heritage Room</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 2 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 38 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ Queen Bed</span>
+                <span class="hotelbookingsystem-room-spec">🪟 Garden View</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Elegantly designed room with heritage architecture, modern amenities, and traditional Indian artwork. Comfortable stay with all essential facilities.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ AC & Heater</span>
+                <span>✓ Coffee Maker</span>
+                <span>✓ Smart TV</span>
+                <span>✓ Work Desk</span>
+                <span>✓ Bathroom Amenities</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹5,499</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Room Card 3 - Family Suite -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">👨‍👩‍👧‍👦</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Premium Family Suite</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 4 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 65 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ 2 Beds</span>
+                <span class="hotelbookingsystem-room-spec">🪟 Mountain View</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Spacious family suite with two bedrooms, living area, and children's play zone. Perfect for families seeking comfort and privacy with stunning views.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ Connecting Rooms</span>
+                <span>✓ Kitchen</span>
+                <span>✓ Kids Amenities</span>
+                <span>✓ Dining Area</span>
+                <span>✓ Extra Beds Available</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹12,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Room Card 4 - Beach Villa -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">🏖️</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Private Beach Villa</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 2-3 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 80 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ King Bed</span>
+                <span class="hotelbookingsystem-room-spec">🌊 Beach Front</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Luxury beach villa with direct beach access, private pool, outdoor shower, and sunset deck. Wake up to ocean waves and endless blue horizons.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ Private Pool</span>
+                <span>✓ Outdoor Shower</span>
+                <span>✓ Beach Loungers</span>
+                <span>✓ Sunset Deck</span>
+                <span>✓ Room Service 24/7</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹18,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Room Card 5 - Houseboat Room -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">🛶</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Traditional Houseboat Suite</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 2 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 35 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ Double Bed</span>
+                <span class="hotelbookingsystem-room-spec">🌊 Backwater View</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Authentic Kerala houseboat with wooden interiors, traditional design, and serene backwater views. Experience the tranquil beauty of God's Own Country.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ AC Bedroom</span>
+                <span>✓ Sun Deck</span>
+                <span>✓ Chef on Board</span>
+                <span>✓ Fishing Equipment</span>
+                <span>✓ Traditional Meals</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹9,999</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Room Card 6 - Mountain Cottage -->
+          <div class="hotelbookingsystem-room-card">
+            <div class="hotelbookingsystem-room-image">
+              <div class="hotelbookingsystem-room-img-placeholder">🏔️</div>
+            </div>
+            <div class="hotelbookingsystem-room-details">
+              <h3 class="hotelbookingsystem-room-name">Himalayan Mountain Cottage</h3>
+              <div class="hotelbookingsystem-room-specs">
+                <span class="hotelbookingsystem-room-spec">👤 2 Guests</span>
+                <span class="hotelbookingsystem-room-spec">📐 42 m²</span>
+                <span class="hotelbookingsystem-room-spec">🛏️ King Bed</span>
+                <span class="hotelbookingsystem-room-spec">⛰️ Valley View</span>
+              </div>
+              <p class="hotelbookingsystem-room-description">
+                Cozy wooden cottage with fireplace, mountain views, and colonial-style furniture. Perfect for romantic getaways and peaceful mountain retreats.
+              </p>
+              <div class="hotelbookingsystem-room-features">
+                <span>✓ Wood Fireplace</span>
+                <span>✓ Heater</span>
+                <span>✓ Private Balcony</span>
+                <span>✓ Mountain Views</span>
+                <span>✓ Hot Beverage Kit</span>
+              </div>
+              <div class="hotelbookingsystem-room-footer">
+                <div class="hotelbookingsystem-room-price">
+                  <span class="hotelbookingsystem-price">₹6,499</span>
+                  <span class="hotelbookingsystem-price-unit">/night</span>
+                </div>
+                <a href="#booking" class="hotelbookingsystem-book-btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+
+
+        <!-- Booking Section -->
+        <section id="booking" class="hotelbookingsystem-section">
+          <h2 class="hotelbookingsystem-section-title">Complete Your Booking</h2>
+          
+          <div class="hotelbookingsystem-booking-container">
+            
+            <!-- Booking Form -->
+            <div class="hotelbookingsystem-booking-form-card">
+              <h3 class="hotelbookingsystem-form-title">Guest Information</h3>
+              
+              <form class="hotelbookingsystem-booking-form">
+                <div class="hotelbookingsystem-form-group">
+                  <label class="hotelbookingsystem-form-label">Full Name</label>
+                  <input type="text" class="hotelbookingsystem-form-input" placeholder="Rajesh Kumar" required>
+                </div>
+
+
+                <div class="hotelbookingsystem-form-row">
+                  <div class="hotelbookingsystem-form-group">
+                    <label class="hotelbookingsystem-form-label">Email</label>
+                    <input type="email" class="hotelbookingsystem-form-input" placeholder="rajesh@example.com" required>
+                  </div>
+                  <div class="hotelbookingsystem-form-group">
+                    <label class="hotelbookingsystem-form-label">Phone</label>
+                    <input type="tel" class="hotelbookingsystem-form-input" placeholder="+91 98765 43210" required>
+                  </div>
+                </div>
+
+
+                <div class="hotelbookingsystem-form-row">
+                  <div class="hotelbookingsystem-form-group">
+                    <label class="hotelbookingsystem-form-label">Check-in Date</label>
+                    <input type="date" class="hotelbookingsystem-form-input" required>
+                  </div>
+                  <div class="hotelbookingsystem-form-group">
+                    <label class="hotelbookingsystem-form-label">Check-out Date</label>
+                    <input type="date" class="hotelbookingsystem-form-input" required>
+                  </div>
+                </div>
+
+
+                <div class="hotelbookingsystem-form-group">
+                  <label class="hotelbookingsystem-form-label">Number of Guests</label>
+                  <select class="hotelbookingsystem-form-input" required>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                  </select>
+                </div>
+
+
+                <div class="hotelbookingsystem-form-group">
+                  <label class="hotelbookingsystem-form-label">ID Proof Type</label>
+                  <select class="hotelbookingsystem-form-input" required>
+                    <option>Aadhar Card</option>
+                    <option>PAN Card</option>
+                    <option>Passport</option>
+                    <option>Driving License</option>
+                  </select>
+                </div>
+
+
+                <div class="hotelbookingsystem-form-group">
+                  <label class="hotelbookingsystem-form-label">Special Requests</label>
+                  <textarea class="hotelbookingsystem-form-textarea" rows="4" placeholder="Early check-in, airport pickup, special dietary requirements..."></textarea>
+                </div>
+
+
+                <button type="submit" class="hotelbookingsystem-confirm-btn">Confirm Booking</button>
+              </form>
+            </div>
+
+
+            <!-- Booking Summary -->
+            <div class="hotelbookingsystem-booking-summary">
+              <h3 class="hotelbookingsystem-summary-title">Booking Summary</h3>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Hotel</span>
+                <span class="hotelbookingsystem-summary-value">Raj Palace Heritage Hotel</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Room Type</span>
+                <span class="hotelbookingsystem-summary-value">Maharaja Suite</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Check-in</span>
+                <span class="hotelbookingsystem-summary-value">Dec 25, 2025</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Check-out</span>
+                <span class="hotelbookingsystem-summary-value">Dec 28, 2025</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Nights</span>
+                <span class="hotelbookingsystem-summary-value">3</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-divider"></div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Room Rate</span>
+                <span class="hotelbookingsystem-summary-value">₹8,999 × 3</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">GST (18%)</span>
+                <span class="hotelbookingsystem-summary-value">₹4,859</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-item">
+                <span class="hotelbookingsystem-summary-label">Service Charge</span>
+                <span class="hotelbookingsystem-summary-value">₹500</span>
+              </div>
+              
+              <div class="hotelbookingsystem-summary-divider"></div>
+              
+              <div class="hotelbookingsystem-summary-total">
+                <span class="hotelbookingsystem-total-label">Total Amount</span>
+                <span class="hotelbookingsystem-total-value">₹32,356</span>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+
+      </div>
+
+
+      <!-- Footer -->
+      <footer class="hotelbookingsystem-footer">
+        <div class="hotelbookingsystem-footer-content">
+          <div class="hotelbookingsystem-footer-section">
+            <h4 class="hotelbookingsystem-footer-title">About LuxStay India</h4>
+            <p class="hotelbookingsystem-footer-text">
+              Your trusted partner for luxury hotel bookings across India. Experience heritage hotels, beach resorts, and mountain retreats at the best prices.
+            </p>
+          </div>
+          <div class="hotelbookingsystem-footer-section">
+            <h4 class="hotelbookingsystem-footer-title">Quick Links</h4>
+            <a href="#" class="hotelbookingsystem-footer-link">About Us</a>
+            <a href="#" class="hotelbookingsystem-footer-link">Contact</a>
+            <a href="#" class="hotelbookingsystem-footer-link">Terms & Conditions</a>
+            <a href="#" class="hotelbookingsystem-footer-link">Privacy Policy</a>
+            <a href="#" class="hotelbookingsystem-footer-link">Cancellation Policy</a>
+          </div>
+          <div class="hotelbookingsystem-footer-section">
+            <h4 class="hotelbookingsystem-footer-title">Contact Us</h4>
+            <p class="hotelbookingsystem-footer-text">📧 info@luxstayindia.com</p>
+            <p class="hotelbookingsystem-footer-text">📞 +91 1800-123-4567</p>
+            <p class="hotelbookingsystem-footer-text">📍 Connaught Place, New Delhi - 110001</p>
+            <p class="hotelbookingsystem-footer-text">⏰ 24/7 Customer Support</p>
+          </div>
+        </div>
+        <div class="hotelbookingsystem-footer-bottom">
+          <p>© 2025 LuxStay India. All rights reserved. | Made in India 🇮🇳</p>
+        </div>
+      </footer>
+
+
+    </div>
+  </div>
+</body>
+</html>

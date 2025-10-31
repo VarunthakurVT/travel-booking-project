@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>home page</title>
+    
+  </head>
+  <body>
+
+    <div class="mainpage">
+    
+    <div class="headerbackground">
+   <div class="mainheader">
+    <span>
+      <a href="index.html" class="logo" >
+   <img width="130px" height="50px" src="assets/photos/logo.png" alt="logo" />
+   </span></a>
+   <div class="loginorsignup">
+     <a href="register.html"class ="signup-button">
+       <span class="text-up">signup</span>
+  <span class="text-down">Welcome! </span>
+</a>
+    <a href="login.html" class="login-button">
+      <span class="text-up">Login</span>
+  <span class="text-down">Welcome Back !</span>
+</a> 
+
+</div>
+
+<div class="darkness">
+  
+</div>
+</div>
+</div>
+
+<nav class="mainnav">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"> bus</a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> Taxi</a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> trains</a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png">hotel</a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> flight</a></li>
+</ul>
+</nav>
+<nav class="mainnavstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+  <nav class="navstickey">
+  <ul>
+<li class="bus"><a class="bus" href="busespage.html"> <img src="assets/icons/bus.png"></a>
+</li>
+<li><a class="Taxi" href="Taxi.html"><img src="assets/icons/car.png"> </a>
+</li>
+<li><a class="trains" href="trainbooking.html"><img src="assets/icons/train.png"> </a></li>
+<li><a class="hotel" href="hotelbooking.html"><img src="assets/icons/hotel.png"></a></li>
+<li><a class="flight" href="flightbooking.html"><img src="assets/icons/flight.png"> </a></li>
+</ul>
+</nav>
+
+<!-- this above is the nav bar and this add to almost all webpages -->
+   
+
+<!-- Hero Section -->
+<div class="index-hero-section">
+  <div class="index-hero-content">
+    <h1 class="index-hero-title">
+      <span class="index-title-word">Your</span>
+      <span class="index-title-word">Journey</span>
+      <span class="index-title-word">Starts</span>
+      <span class="index-title-word">From</span>
+      <span class="index-title-word">Here</span>
+      
+    </h1>
+    <p class="index-hero-subtitle">Book buses, taxis, trains, flights, and hotels - all in one place</p>
+    <div class="index-search-container"><label for="current location"></label>
+  <input id="pickup" class="index-search-input" type="text" value="shoolini university" placeholder="your current location" >
+  
+  <label for="destinations"></label>
+  <input id="drop"class="index-search-input" type="text"  placeholder="where you want to go" >
+  
+  <button type=button class="index-search-button">Show Route</button><br>
+  </div>
+
+  </div>
+   
+  
+  <!-- Floating animated icons -->
+  <div class="index-floating-icon index-float-1">✈️</div>
+  <div class="index-floating-icon index-float-2">🚌</div>
+  <div class="index-floating-icon index-float-3">🚂</div>
+  <div class="index-floating-icon index-float-4">🚕</div>
+  <div class="index-floating-icon index-float-5">🏨</div>
+</div>
+
+  <div class="map">
+<div class="mapouter">
+  <div class="gmap_canvas">
+    <div class="map"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=shoolini university &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com"></a></div>
+ </div>
+</div>
+</div>
+</div>
+
+<!-- About Us / Services Overview Section -->
+<div class="index-about-section">
+  <h2 class="index-section-title">Why Choose Us?</h2>
+  <p class="index-section-subtitle">Your complete travel solution in one platform</p>
+  
+  <div class="index-services-grid">
+    
+    <!-- Bus Service Card -->
+    <div class="index-service-card index-card-bus">
+      <div class="index-card-icon-wrapper">
+        <img src="assets/icons/bus.png" alt="Bus" class="index-card-icon">
+      </div>
+      <h3 class="index-card-title">Bus Booking</h3>
+      <p class="index-card-description">Travel comfortably across cities with our extensive bus network. Choose from AC, Non-AC, sleeper, and seater options.</p>
+      <ul class="index-card-features">
+        <li>🎯 1000+ Routes Available</li>
+        <li>💺 Seat Selection</li>
+        <li>🔒 Safe & Secure</li>
+      </ul>
+      <a href="busespage.html" class="index-card-button">Book Bus</a>
+    </div>
+
+    <!-- Taxi Service Card -->
+    <div class="index-service-card index-card-taxi">
+      <div class="index-card-icon-wrapper">
+        <img src="assets/icons/car.png" alt="Taxi" class="index-card-icon">
+      </div>
+      <h3 class="index-card-title">Taxi Services</h3>
+      <p class="index-card-description">Quick and convenient cab services available 24/7. Perfect for local trips and outstation journeys.</p>
+      <ul class="index-card-features">
+        <li>⏰ 24/7 Availability</li>
+        <li>🚗 Multiple Car Options</li>
+        <li>📍 Real-time Tracking</li>
+      </ul>
+      <a href="#Taxi" class="index-card-button">Book Taxi</a>
+    </div>
+
+    <!-- Train Service Card -->
+    <div class="index-service-card index-card-train">
+      <div class="index-card-icon-wrapper">
+        <img src="assets/icons/train.png" alt="Train" class="index-card-icon">
+      </div>
+      <h3 class="index-card-title">Train Tickets</h3>
+      <p class="index-card-description">Book train tickets hassle-free. Check live status, PNR status, and get instant confirmation.</p>
+      <ul class="index-card-features">
+        <li>🎫 Instant Booking</li>
+        <li>📊 Live Status Check</li>
+        <li>🔄 Easy Cancellation</li>
+      </ul>
+      <a href="#train" class="index-card-button">Book Train</a>
+    </div>
+
+    <!-- Flight Service Card -->
+    <div class="index-service-card index-card-flight">
+      <div class="index-card-icon-wrapper">
+        <img src="assets/icons/flight.png" alt="Flight" class="index-card-icon">
+      </div>
+      <h3 class="index-card-title">Flight Booking</h3>
+      <p class="index-card-description">Fly to your dream destinations with best deals on domestic and international flights.</p>
+      <ul class="index-card-features">
+        <li>✈️ Domestic & International</li>
+        <li>💰 Best Price Guarantee</li>
+        <li>⚡ Instant Confirmation</li>
+      </ul>
+      <a href="#home" class="index-card-button">Book Flight</a>
+    </div>
+
+    <!-- Hotel Service Card -->
+    <div class="index-service-card index-card-hotel">
+      <div class="index-card-icon-wrapper">
+        <img src="assets/icons/hotel.png" alt="Hotel" class="index-card-icon">
+      </div>
+      <h3 class="index-card-title">Hotel Stays</h3>
+      <p class="index-card-description">Find the perfect accommodation for your journey. From budget to luxury hotels worldwide.</p>
+      <ul class="index-card-features">
+        <li>🏨 5000+ Hotels</li>
+        <li>⭐ Verified Reviews</li>
+        <li>🎁 Special Offers</li>
+      </ul>
+      <a href="#hotel" class="index-card-button">Book Hotel</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Statistics Section -->
+<div class="index-stats-section">
+  <div class="index-stat-box">
+    <div class="index-stat-number" data-target="50000">0</div>
+    <div class="index-stat-label">Happy Customers</div>
+  </div>
+  <div class="index-stat-box">
+    <div class="index-stat-number" data-target="1000">0</div>
+    <div class="index-stat-label">Daily Bookings</div>
+  </div>
+  <div class="index-stat-box">
+    <div class="index-stat-number" data-target="500">0</div>
+    <div class="index-stat-label">Cities Covered</div>
+  </div>
+  <div class="index-stat-box">
+    <div class="index-stat-number" data-target="98">0</div>
+    <div class="index-stat-label">Success Rate %</div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="index-features-section">
+  <h2 class="index-section-title">What Makes Us Special</h2>
+  
+  <div class="index-features-grid">
+    <div class="index-feature-item">
+      <div class="index-feature-icon">🔒</div>
+      <h4 class="index-feature-title">100% Secure</h4>
+      <p class="index-feature-text">Your payments and data are completely safe with our encrypted platform</p>
+    </div>
+    
+    <div class="index-feature-item">
+      <div class="index-feature-icon">💰</div>
+      <h4 class="index-feature-title">Best Prices</h4>
+      <p class="index-feature-text">Get the most competitive rates and exclusive deals on all bookings</p>
+    </div>
+    
+    <div class="index-feature-item">
+      <div class="index-feature-icon">⚡</div>
+      <h4 class="index-feature-title">Instant Booking</h4>
+      <p class="index-feature-text">Book your tickets in seconds with our lightning-fast booking system</p>
+    </div>
+    
+    <div class="index-feature-item">
+      <div class="index-feature-icon">📞</div>
+      <h4 class="index-feature-title">24/7 Support</h4>
+      <p class="index-feature-text">Our customer support team is always ready to help you anytime</p>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials Section -->
+<div class="index-testimonials-section">
+  <h2 class="index-section-title">What Our Customers Say</h2>
+  
+  <div class="index-testimonials-container">
+    <div class="index-testimonial-card">
+      <div class="index-testimonial-rating">⭐⭐⭐⭐⭐</div>
+      <p class="index-testimonial-text">"Amazing service! Booked my bus ticket in seconds. The process was smooth and hassle-free."</p>
+      <div class="index-testimonial-author">- varun thakur</div>
+    </div>
+    
+    <div class="index-testimonial-card">
+      <div class="index-testimonial-rating">⭐⭐⭐⭐⭐</div>
+      <p class="index-testimonial-text">"Best platform for travel bookings. Got great deals on flights and hotels. Highly recommended!"</p>
+      <div class="index-testimonial-author">- arnav</div>
+    </div>
+    
+    <div class="index-testimonial-card">
+      <div class="index-testimonial-rating">⭐⭐⭐⭐⭐</div>
+      <p class="index-testimonial-text">"Customer support is excellent. They helped me reschedule my train ticket without any issues."</p>
+      <div class="index-testimonial-author">- piyush</div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
